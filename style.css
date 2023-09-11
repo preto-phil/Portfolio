@@ -39,6 +39,57 @@ main {
   background-color: rgb(73, 73, 134);
 }
 
+.projects {
+  margin: 0 auto;
+}
+
+.projects > h1 {
+  padding-bottom: 2rem;
+}
+
+.project {
+  width: 400px;
+  height: auto;
+  background-color: antiquewhite;
+  border-radius: 8px;
+
+}
+
+.project > img {
+  width: 400px;
+  height: auto;
+  background-color: aquamarine;
+  border-radius: 8px 8px 0 0;
+}
+
+.project > p {
+  padding: 5px 15px 15px 15px;
+}
+
+.project > div {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.title-div {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+}
+
+.github-btn,
+.link-btn {
+  padding: 5px;
+  border: none;
+  background-color: rgb(255, 255, 255, 0);
+}
+
+
 footer {
   grid-area: 3 / 1 / 4 / 2;
 
