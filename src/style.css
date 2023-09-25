@@ -27,6 +27,11 @@ header {
 
   border: 5px solid darkmagenta;
   background-color: rgb(29, 28, 28);
+  background-image: url(./assets/Images/Wallpapers/sky.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-size: 1.5rem;
 }
 
 /* .header-title {
@@ -70,9 +75,28 @@ main {
 
   border: 5px solid rgb(73, 73, 134);
 
-  background-image: url(./assets/Images/Wallpapers/nebula.png);
+/*   background-image: url(./assets/Images/Wallpapers/nebula.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-image: url(./assets/Images/Wallpapers/sky.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.about > h1 {
+  padding: 2rem 0;
+  opacity: 1;
+
+  font-size: 2rem;
 }
 
 .projects {
